@@ -5,6 +5,10 @@
 
 // STYLING FOR WELCOME PAGE
 
+#header {
+  display: none;
+}
+
 #banner {
   background-image: url(image_path("welcome_banner_image.jpg"));
   background-size: cover;
@@ -48,7 +52,7 @@
 }
 
 #callouts {
-  background-image: image-url("callout_background.jpg");
+  background-image: url("callout_backgroung.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top center;
