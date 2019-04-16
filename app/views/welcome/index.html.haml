@@ -1,1 +1,18 @@
-%h1 This placeholder is made using Haml O.o
+#banner
+  .banner_content
+    %h1 File Cabinet
+    %p Your life's work. Organized. Always.
+    %button= link_to "Enter", new_user_registration_path
+
+#callouts
+  .callout_inner
+    .wrapper
+      .callout
+        %h2 Organize
+        %p random text
+
+#bottom_cta
+  .wrapper
+  %h2 Go Ahead!
+  %br
+  %button= link_to "Join Now", new_user_registration_path
